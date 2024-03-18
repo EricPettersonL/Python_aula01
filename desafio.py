@@ -18,8 +18,9 @@ final_bonus = (salario*bonus)
 
 # Imprima o cálculo do KPI para o usuário
 # Imprima a mensagem personalizada incluindo o nome do usuário, e o valor do bônus
-
+kpi_2 = (bonus_2024 + final_bonus)
 kpi = str(bonus_2024 + final_bonus)
 print( "Olá "+ nome +" seu KPI do bônus de 2024 é de " + kpi + " Reais")
+print(f"Oi {nome} seu bônus ficou em {kpi_2} reais")
 
 
